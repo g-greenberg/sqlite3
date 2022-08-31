@@ -19,7 +19,7 @@ option(HAVE_LOCALTIME_R "Use the threadsafe localtime_r()")
 option(HAVE_POSIX_FALLOCATE "Use posix_fallocate()")
 option(HAVE_STRERROR_R "Use strerror_r()")
 option(HAVE_USLEEP "Use usleep() system call to implement the xSleep method")
-option(BUILD_SHELL "build sqlite3 shell application" OFF)
+option(BUILD_SHELL "build sqlite3 shell application" ON)
 
 add_library(${PROJECT_NAME} source_subfolder/sqlite3.c
                             source_subfolder/sqlite3.h
